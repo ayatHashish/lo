@@ -1,0 +1,445 @@
+
+
+/* start Global Rules */
+
+
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+
+
+
+background-color:#f6f6f6a4;
+ font-family: "work sans", sans-serif;
+}
+
+
+
+
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* End Global Rules */
+
+
+
+/* bootstrab */
+
+
+
+.navbar .navbar-brand{
+    padding: 0 73px;
+}
+
+
+
+
+.navbar .icon-menu{
+    position: relative;
+}
+.navbar .icon-menu ul{
+display: none;
+position: absolute;
+background: #e8e8e8;
+top: 30px;
+
+padding: 10px 37px;
+right: 35px;
+
+}
+.navbar .icon-menu:hover ul{
+    display: block;
+}
+.navbar .icon-menu .btn-menu{
+  
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 15px;
+    position: relative;
+    transform: rotateY(180deg);
+    transition:  .9s ease-in-out ;
+}
+.navbar .icon-menu .btn-menu:hover{
+    width: 30px;
+}
+.navbar .icon-menu .btn-menu::before{
+
+    content: "";
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    
+}
+
+
+.navbar .icon-menu .btn-menu::after{
+    content: "";
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 30px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    
+   
+/* end nav*/
+
+
+/* start photo*/
+
+
+.photo{
+    margin-top: 20px;
+    background-image: url(../image/photo-1593642633279-1796119d5482.jfif);
+    background-size: cover;
+    height:calc(100vh-64px);
+}
+
+.photo .heading {
+    text-align: center;
+    padding: 12%;
+}
+ 
+.photo .heading h1{
+    color: teal;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.photo .heading p{
+    font-size: 19px;
+    line-height: 1.8;
+}
+/* end photo*/
+
+
+
+/* start features*/
+
+
+
+
+
+/* Start Features */
+.features {
+    padding-top: 40px;
+    padding-bottom:40px;
+    background-color:#ebeced;
+    
+  }
+
+
+  /* what is this ??*/
+  .features .container {
+    display: flex;
+  }
+  .features .feat {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .features .feat i {
+    color: teal;
+  }
+  .features .feat h3 {
+    font-weight: 800;
+    margin: 30px 0;
+  }
+  .features .feat p {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+  }
+
+
+
+/* end features*/
+
+
+
+
+
+/*start service */
+
+.service{
+
+    margin: 0;
+    background-color: white;
+}
+
+.service .size {
+    padding: 70px;
+}
+
+.service .service-contact {
+    
+    display: flex;
+    justify-content: center;
+    padding: 38px;
+}
+
+/* small screen media */
+
+
+/*end service*/
+
+
+
+
+/* start porto*/
+.port{
+    padding: 100px;
+}
+
+.port .size {
+    padding: 70px;
+}
+
+.port .portfholio-contact{
+    display: inline-flex;
+    margin: 10px 31px;
+    padding-top: 45px;
+}
+
+.port .portfholio-contact .card{
+
+    width: calc(100% / 3);
+    margin-right: 20px;
+    
+}
+.port .portfholio-contact .card:last-child{
+
+    
+    margin-right: 0;
+    
+}
+
+
+
+/*start about */
+
+.about{
+    padding-top: 100px;
+    background: white;
+    
+}
+
+/* nakis*/
+
+ .about .service-contact{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.about .service-contact .image{
+    position: relative;
+    width: 250px;
+    height: 375px;
+    margin-bottom: 50px;
+    padding: 0px 120px;
+
+}
+
+/* end  nakes */
+
+
+.about .service-contact .text{
+    margin-top: 100px;
+    margin-left: 25%;
+}
+
+.about .service-contact .text p:first-child{
+
+
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.about .service-contact .text p:last-child{
+
+   color: #777;
+    line-height: 2;
+}
+.about .service-contact .text hr {
+    width: 50%;
+    display: inline-block;
+    border-color: teal;
+}
+
+
+/* small screen media */
+
+
+/*end service */
+
+
+
+
+/* end  porto*/
+ /* start content */
+
+ .Contact{
+
+
+    margin-top: 100px;
+    text-align: center;
+    
+ }
+
+ .Contact .info {
+     margin-top: 100px;
+     margin-bottom:100px;
+
+ }
+
+ .Contact .info .label  {
+    color: #2c4755;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+
+
+ }
+
+
+
+ .Contact .info a{
+    color: teal;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+
+ }
+
+ .Contact .info h6{
+
+    margin-top: 10px;
+ }
+
+
+ .Contact .info h6 i{
+     margin-left:1px ;
+     margin-right:1px ;
+ }
+ /*end content */
+
+/*start footer*/ 
+footer{
+    background-color: #2c4755;
+    padding:20px;
+    font-size: 18px;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+}
+
+footer div span{
+    color: teal;
+    font-weight: bold;
+}
+
+/* end footer*/
+
+/* start framework*/
+.h3-black{
+
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.p-dec{
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+}
+
+
+
+.special-heading{
+
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
+
+
+
+    
+
+    .special-pra{
+
+    
+        margin: -30px 0 0;
+     font-size: 20px;
+     text-align: center;
+     color: #797979;;
+     
+ }
+
+.special-pra{
+
+    
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;;
+    
+}
+
+
+.icon{
+    color: teal;
+}
+.show-in-mobile{
+    display: none;
+}
+.show-in-tab{
+    display: none;
+}
+/* end framework*/
+

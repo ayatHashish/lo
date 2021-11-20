@@ -1,0 +1,167 @@
+   
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992) {  
+    
+    .container{
+    width: 970px;
+}  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200) {  
+    
+    .container{
+    width: 1700px;
+}
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /* For tab : */
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .features .container{
+        display: block;
+  
+  }
+  
+  .features .feat {
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .service .service-contact{
+        display: block;
+        text-align: center;
+        padding: 38px;
+    }
+
+    .service-contact .image img{
+        display: none;
+    }
+
+    .about{
+        display: block;
+    }
+    footer{
+        font-size: 28px;
+    }
+    .special-heading{
+
+        font-size: 70px;
+        text-align: center;}
+
+    .show-in-disktop{
+        display: none;
+    }
+
+    .show-in-disktop{
+        display: none;
+    }
+    .show-in-mobile{
+        display: block;
+    }
+        .port{
+            padding:0;
+            margin-right: auto;
+            
+        }
+       
+        .port .portfholio-contact{
+            display: block;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .port .portfholio-contact .card{
+            width:100% ;
+             margin-bottom: 20px ;
+            
+    
+        }
+        
+   
+    .photo{
+        height: 85vh;
+     }
+     .photo .heading {
+         text-align: center;
+        
+     }
+     
+     .photo .heading h1{
+         
+         margin: 20px;
+        
+     }
+     .photo .heading p{
+         margin: 20px;
+         padding: 10px;
+     }
+   
+    .navbar .collapse .navbar-collapse{
+        float: right;
+    }
+    .about{
+        display: block;
+    }
+    
+    footer{
+        font-size: 28px;
+    }
+
+
+    .special-heading{
+
+      
+        font-size: 70px;
+        text-align: center;
+        
+}
+    
+
+    .p-dec{
+        line-height: 1.8;
+        color: #777;
+        font-size: 17px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    
+}
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+  
